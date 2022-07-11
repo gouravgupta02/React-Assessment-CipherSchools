@@ -1,0 +1,97 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    height: 8rem;
+    width: 90rem;
+    border: 2px solid #dad6e2;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-right: 2px solid #dad6e2 ;
+}
+#pic1{
+    height: 7rem;
+    border-radius: 5px;
+    margin-left: 2rem;
+}
+.Name{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+.name{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.info1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.box1{
+    /* border: 1px solid black; */
+    padding: 2px 4px;
+    border-radius: 5px;
+    background-color: #f9eadb;
+    color: #dc9255;
+}
+.box2{
+    /* border: 1px solid black; */
+    padding: 2px 4px;
+    border-radius: 5px;
+    background-color: #E6F2F9;
+    color: #339CD4;
+}
+.box3{
+    /* border: 1px solid black; */
+    padding: 2px 4px;
+    border-radius: 5px;
+    background-color: #FDEEE9;
+    color: #F39B84;
+}
+.section2{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.company{
+    font-weight: 500;
+}
+.price{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.section2c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 500;
+}
+.section2c button{
+    padding: 10px 10px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid #dad6e2 ;
+    cursor: pointer;
+}
